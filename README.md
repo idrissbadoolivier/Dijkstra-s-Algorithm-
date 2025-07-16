@@ -158,4 +158,4 @@ console.log(dijkstra(graph, 'A'));
 
 ---
 
-**©️ Written by a student passionate about algorithms and clean JavaScript code.**
+**©️ Written by Idriss Olivier BADO SENIOR DATA SCIENTIST and  passionate about algorithms and clean JavaScript code.**
