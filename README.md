@@ -33,34 +33,6 @@ const graph = {
 Implement a JavaScript function:
 
 ```js
-function dijkstra(graph, start) {
-  // your implementation
-}
-```
-
-The function should return the shortest distances from the `start` node to all other nodes.
-
----
-
-## ✅ Expected Output
-
-Calling the function like this:
-
-```js
-console.log(dijkstra(graph, 'A'));
-```
-
-Should return:
-
-```js
-{
-  A: 0,
-  B: 4,
-  C: 2,
-  D: 5
-}
-```
-
 ---
 
 ## 💡 Solution
@@ -110,6 +82,32 @@ function dijkstra(graph, start) {
   return distances;
 }
 ```
+
+```
+
+The function should return the shortest distances from the `start` node to all other nodes.
+
+---
+
+## ✅ Expected Output
+
+Calling the function like this:
+
+```js
+console.log(dijkstra(graph, 'A'));
+```
+
+Should return:
+
+```js
+{
+  A: 0,
+  B: 4,
+  C: 2,
+  D: 5
+}
+```
+
 
 ---
 
